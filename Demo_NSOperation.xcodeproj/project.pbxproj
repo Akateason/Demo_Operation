@@ -15,6 +15,8 @@
 		D7133FC41BE9FEDD0004F82F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7133FC21BE9FEDD0004F82F /* LaunchScreen.storyboard */; };
 		D7133FCF1BE9FEDD0004F82F /* Demo_NSOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7133FCE1BE9FEDD0004F82F /* Demo_NSOperationTests.m */; };
 		D7133FDA1BE9FEDD0004F82F /* Demo_NSOperationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7133FD91BE9FEDD0004F82F /* Demo_NSOperationUITests.m */; };
+		D7133FE91BEA0FB70004F82F /* ConcurrentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D7133FE81BEA0FB70004F82F /* ConcurrentOperation.m */; settings = {ASSET_TAGS = (); }; };
+		D7133FEC1BEA15160004F82F /* TempOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D7133FEB1BEA15160004F82F /* TempOperation.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		D7133FD51BE9FEDD0004F82F /* Demo_NSOperationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_NSOperationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7133FD91BE9FEDD0004F82F /* Demo_NSOperationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_NSOperationUITests.m; sourceTree = "<group>"; };
 		D7133FDB1BE9FEDD0004F82F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7133FE71BEA0FB70004F82F /* ConcurrentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcurrentOperation.h; sourceTree = "<group>"; };
+		D7133FE81BEA0FB70004F82F /* ConcurrentOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcurrentOperation.m; sourceTree = "<group>"; };
+		D7133FEA1BEA15160004F82F /* TempOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempOperation.h; sourceTree = "<group>"; };
+		D7133FEB1BEA15160004F82F /* TempOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				D7133FB81BE9FEDD0004F82F /* AppDelegate.m */,
 				D7133FBA1BE9FEDD0004F82F /* ViewController.h */,
 				D7133FBB1BE9FEDD0004F82F /* ViewController.m */,
+				D7133FE71BEA0FB70004F82F /* ConcurrentOperation.h */,
+				D7133FE81BEA0FB70004F82F /* ConcurrentOperation.m */,
+				D7133FEA1BEA15160004F82F /* TempOperation.h */,
+				D7133FEB1BEA15160004F82F /* TempOperation.m */,
 				D7133FBD1BE9FEDD0004F82F /* Main.storyboard */,
 				D7133FC01BE9FEDD0004F82F /* Assets.xcassets */,
 				D7133FC21BE9FEDD0004F82F /* LaunchScreen.storyboard */,
@@ -273,6 +283,8 @@
 				D7133FBC1BE9FEDD0004F82F /* ViewController.m in Sources */,
 				D7133FB91BE9FEDD0004F82F /* AppDelegate.m in Sources */,
 				D7133FB61BE9FEDD0004F82F /* main.m in Sources */,
+				D7133FE91BEA0FB70004F82F /* ConcurrentOperation.m in Sources */,
+				D7133FEC1BEA15160004F82F /* TempOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
