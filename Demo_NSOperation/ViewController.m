@@ -36,7 +36,6 @@
         }
     }];
     
-
     //创建NSOperationQueue
     NSOperationQueue * queue = [[NSOperationQueue alloc] init];
     //把操作添加到队列中
